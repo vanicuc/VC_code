@@ -54,7 +54,8 @@ function App() {
           </li>
           <li>
             <a href="CV  vanina cucchietti.pdf" target="_blank">
-              <img src="public/images/cv.png" alt="Icono de cv" />
+              <img src="images/cv.png" alt="Icono de cv" />
+         
             </a>
           </li>
         </div>
