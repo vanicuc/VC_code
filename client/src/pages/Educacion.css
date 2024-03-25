@@ -1,0 +1,129 @@
+.info-container {
+  display: flex;
+  justify-content: center;
+}
+.text-content {
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.img_education {
+  width: 5%;
+}
+.img_mujer {
+  width: 18%;
+  display: flex;
+  margin-right: 0;
+}
+.education {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.language {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 0;
+}
+.container {
+  flex-wrap: wrap;
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .cardStudio {
+  cursor: pointer;
+  margin: 0 10px;
+  width: 300px;
+  height: 230px;
+}
+
+@media (max-width: 768px) {
+  .container .cardStudio {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+.container .cardStudio .face {
+  width: 300px;
+  height: 120px;
+  transition: 0.5s;
+}
+
+.container .cardStudio .face.face1 {
+  position: relative;
+  background: #f2f2f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(50px);
+  border-radius: var(--spacing-m);
+}
+
+.container .cardStudio:hover .face.face1 {
+  background: #c6c6c8;
+  transform: translateY(0);
+}
+
+.container .cardStudio .face.face1 .content {
+  opacity: 0.2;
+  transition: 0.5s;
+}
+
+.container .cardStudio:hover .face.face1 .content {
+  opacity: 1;
+}
+
+.container .cardStudio .face.face1 .content img {
+  max-width: 100px;
+}
+
+.container .cardStudio .face.face1 .content h3 {
+  margin: 10px 0 0;
+  padding: 0;
+  color: #0c0c0c;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.container .cardStudio .face.face2 {
+  position: relative;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  transform: translateY(-90px);
+}
+
+.container .cardStudio:hover .face.face2 {
+  transform: translateY(0);
+}
+
+.container .cardStudio .face.face2 .content p {
+  margin: 0;
+  padding: 0;
+}
+
+.container .cardStudio .face.face2 .content a {
+  margin: 15px 0 0;
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+  border: 1px solid #333;
+}
+
+.container .cardStudio .face.face2 .content a:hover {
+  background: #cecece;
+  color: #fff;
+}
