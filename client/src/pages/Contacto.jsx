@@ -75,11 +75,19 @@ export default function Contacto() {
               creative collaborations, or if you are looking for new talents for
               your team, I would love to hear from you!
             </p>
-            <img src="porfolio.jpeg" width={350} />
+            <img src="./public/images/porfolio.jpeg" width={350} />
           </div>
-        </div>
 
-        <form action="" className="form_contact" onSubmit={handleSubmit}>
+        <li>
+            <a href="mailto:vanicuc@gmail.com" target="_blank">
+              <img src="./public/images/email.png" alt="Icono de Mail" />
+              
+            </a>
+          </li>
+
+        </div>
+        
+        {/* <form action="" className="form_contact" onSubmit={handleSubmit}>
           <h2>Send a message</h2>
           <div className="user_info">
             <label htmlFor="name">Name *</label>
@@ -122,7 +130,7 @@ export default function Contacto() {
             ></textarea>
             <input type="submit" value="Submit" id="btnSend" />
           </div>
-        </form>
+        </form> */}
       </div>
     </>
   );

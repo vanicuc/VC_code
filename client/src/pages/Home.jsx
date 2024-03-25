@@ -67,36 +67,12 @@ export default function Home() {
             </a> */}
           </div>
 
-          {/* <div className="Links">
-            <li>
-              <a href="mailto:vanicuc@gmail.com" target="_blank">
-                <img src="email.png" alt="Icono de Mail" />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/vanina-c-90954248"
-                target="_blank"
-              >
-                <img src="linkedin.png" alt="Icono de Linkedin" />
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/vanicuc/Porfolio_VC" target="_blank">
-                <img src="social.png" alt="Icono de Github" />
-              </a>
-            </li>
-            <li>
-              <a href="CV  vanina cucchietti.pdf" target="_blank">
-                <img src="cv.png" alt="Icono de cv" />
-              </a>
-            </li>
-          </div> */}
+     
         </div>
 
         <div className="Picture">
           <img
-            src="./logo.jpg"
+            src="./public/images/logo.jpg"
             alt="foto"
             className="foto"
             style={{ width: "100%", height: "auto" }}

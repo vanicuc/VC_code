@@ -81,7 +81,7 @@ export default function OliVino() {
 
         <div className="imagen_logo">
           <img
-            src="./olivino blanco.png"
+            src="./public/images/olivino blanco.png"
             alt="olivino"
             className="card__logo"
             style={{ width: "50%", height: "auto" }}
@@ -107,7 +107,7 @@ export default function OliVino() {
                     to a sense of isolation.
                     <div className="Empathize_img">
                       <img
-                        src="laidy6.jpeg"
+                        src="./public/images/laidy6.jpeg"
                         alt="pld woman"
                         style={{ width: "100%", height: "auto" }}
                       />
@@ -123,7 +123,7 @@ export default function OliVino() {
                     improving the overall quality of life for older adults.
                     <div className="Empathize_img">
                       <img
-                        src="laidy5.jpeg"
+                        src="./public/images/laidy5.jpeg"
                         alt="pld woman"
                         style={{ width: "70%", height: "auto" }}
                       />
@@ -142,7 +142,7 @@ export default function OliVino() {
                     the golden years of life.
                     <div className="Empathize_img">
                       <img
-                        src="feliz.jpeg"
+                        src="./public/images/feliz.jpeg"
                         alt="pld woman"
                         style={{ width: "60%", height: "auto" }}
                       />
@@ -180,10 +180,10 @@ export default function OliVino() {
             transforms solitude into companionship.
           </p>
           <div className="Define_img">
-            <img src="laidy 1.png" alt="pld woman" />
-            <img src="laidy 2.png" alt="pld woman" />
-            <img src="laidy 3.png" alt="pld woman" />
-            <img src="laidy 4.png" alt="pld woman" />
+            <img src="./public/images/laidy 1.png" alt="pld woman" />
+            <img src="./public/images/laidy 2.png" alt="pld woman" />
+            <img src="./public/images/laidy 3.png" alt="pld woman" />
+            <img src="./public/images/laidy 4.png" alt="pld woman" />
           </div>
         </div>
       </section>
@@ -193,7 +193,7 @@ export default function OliVino() {
           <h3 className="titulo_section"> Information ARCHITECTURE</h3>
           <div className="img_arq_section">
             <img
-              src="Olivino  arquitectura.png"
+              src="./public/images/Olivino  arquitectura.png"
               alt="Olivino  arquitectura"
               style={{ width: "70%", height: "auto" }}
             />
@@ -205,7 +205,7 @@ export default function OliVino() {
         <div className="text_section" id="Prototype">
           <h3 className="titulo_section">Moodboard oliVino</h3>
           <div>
-            <img src="Moodboard_olivino.png" alt="Moodboard_olivino" />
+            <img src="./public/images/Moodboard_olivino.png" alt="Moodboard_olivino" />
           </div>
         </div>
       </section>

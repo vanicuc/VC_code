@@ -1,10 +1,11 @@
 import "./Educacion.css";
+import React from "react";
 
 export default function Educacion() {
   return (
     <>
       <div className="education">
-        <img src="education.jpeg" className="img_education" />
+        <img src="./public/images/education.jpeg" className="img_education" />
 
         <h1>Education</h1>
       </div>
@@ -61,7 +62,7 @@ export default function Educacion() {
         </div>
       </div>
       <div className="info-container">
-        <img src="contacto.jpeg" className="img_mujer" />
+        <img src="./public/images/contacto.jpeg" className="img_mujer" />
 
         <div className="language">
           <div className="text-content">

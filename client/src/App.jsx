@@ -1,15 +1,15 @@
-// import React from "react";
-// import { Route, Routes, BrowserRouter, Link, Outlet } from "react-router-dom";
+import React from "react";
+import { Route, Routes, BrowserRouter, Link, Outlet } from "react-router-dom";
 
-// import Contacto from "./pages/Contacto";
-// import OliVino from "./pages/OliVino";
-// import PadresEnsync from "./pages/PadresEnsync";
-// import Biker from "./pages/Biker";
-// import ROLLXPerience from "./pages/ROLLXPerience";
+import Contacto from "./pages/Contacto";
+import OliVino from "./pages/OliVino";
+import PadresEnsync from "./pages/PadresEnsync";
+import Biker from "./pages/Biker";
+import ROLLXPerience from "./pages/ROLLXPerience";
 
-// import Educacion from "./pages/Educacion";
-// import Home from "./pages/Home";
-// import Habilidad from "./pages/Habilidad"
+import Educacion from "./pages/Educacion";
+import Home from "./pages/Home";
+import Habilidad from "./pages/Habilidad"
 
 function App() {
   return (
@@ -35,7 +35,8 @@ function App() {
         <div className="Links">
           <li>
             <a href="mailto:vanicuc@gmail.com" target="_blank">
-              <img src="email.png" alt="Icono de Mail" />
+              <img src="./public/images/email.png" alt="Icono de Mail" />
+              
             </a>
           </li>
           <li>
@@ -43,17 +44,17 @@ function App() {
               href="https://www.linkedin.com/in/vanina-c-90954248"
               target="_blank"
             >
-              <img src="linkedin.png" alt="Icono de Linkedin" />
+              <img src="public/images/linkedin.png" alt="Icono de Linkedin" />
             </a>
           </li>
           <li>
             <a href="https://github.com/vanicuc/Porfolio_VC" target="_blank">
-              <img src="social.png" alt="Icono de Github" />
+              <img src="public/images/social.png" alt="Icono de Github" />
             </a>
           </li>
           <li>
             <a href="CV  vanina cucchietti.pdf" target="_blank">
-              <img src="cv.png" alt="Icono de cv" />
+              <img src="public/images/cv.png" alt="Icono de cv" />
             </a>
           </li>
         </div>
