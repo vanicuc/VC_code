@@ -78,7 +78,7 @@ export default function PadresEnsync() {
         {/* <div className="img_box_logo_padres"> */}
            <div className="img_logo_project_padreEnsync"> 
             <img
-              src="./public/images/PadresEnsync logo 3.png"
+              src="./images/PadresEnsync logo 3.png"
               alt="PadresEnsync"
               className="logo_padres_corazon"
               style={{ width: "100%", height: "auto" }}
@@ -144,7 +144,7 @@ export default function PadresEnsync() {
                       <div className="Define_img">
                         <h4>User flow</h4>
                         <img
-                          src="./public/images/user_flow.png"
+                          src="./images/user_flow.png"
                           alt="user flow"
                           style={{ width: "60%", height: "auto" }}
                         />
@@ -285,7 +285,7 @@ export default function PadresEnsync() {
           <h3 className="titulo_section"> Information Architecture</h3>
           <div className="img_arq_section">
             <img
-              src="./public/images/padresensyncArq.png"
+              src="./images/padresensyncArq.png"
               alt="padresEnsync arquitectura"
               style={{ width: "70%", height: "auto" }}
             />
@@ -297,7 +297,7 @@ export default function PadresEnsync() {
           <h3 className="titulo_section">Moodboard oliVino</h3>
           <div>
             <img
-              src="./public/images/padresensync_Imagenes.png"
+              src="./images/padresensync_Imagenes.png"
               alt="Moodboard_padresensync"
               style={{ width: "90%", height: "auto" }}
             />
@@ -310,7 +310,7 @@ export default function PadresEnsync() {
         <div className="box_structure">
           <div className="screen">
             <img
-              src="./public/images/pantalla_padresensync.png"
+              src="./images/pantalla_padresensync.png"
               alt="pantalla app PadresEnsync"
               style={{ width: "80%", height: "auto" }}
             />
@@ -318,7 +318,7 @@ export default function PadresEnsync() {
 
           <div className="structure">
             <img
-              src="./public/images/PadresEnsync.png"
+              src="./images/PadresEnsync.png"
               alt="structure"
               style={{ width: "90%", height: "auto" }}
             />

@@ -35,7 +35,7 @@ function App() {
         <div className="Links">
           <li>
             <a href="mailto:vanicuc@gmail.com" target="_blank">
-              <img src="./public/images/email.png" alt="Icono de Mail" />
+              <img src="./images/email.png" alt="Icono de Mail" />
               
             </a>
           </li>
@@ -44,12 +44,12 @@ function App() {
               href="https://www.linkedin.com/in/vanina-c-90954248"
               target="_blank"
             >
-              <img src="public/images/linkedin.png" alt="Icono de Linkedin" />
+              <img src="images/linkedin.png" alt="Icono de Linkedin" />
             </a>
           </li>
           <li>
             <a href="https://github.com/vanicuc/Porfolio_VC" target="_blank">
-              <img src="public/images/social.png" alt="Icono de Github" />
+              <img src="images/social.png" alt="Icono de Github" />
             </a>
           </li>
           <li>

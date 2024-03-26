@@ -75,12 +75,12 @@ export default function Contacto() {
               creative collaborations, or if you are looking for new talents for
               your team, I would love to hear from you!
             </p>
-            <img src="./public/images/porfolio.jpeg" width={350} />
+            <img src="./images/porfolio.jpeg" width={350} />
           </div>
 
         <li>
             <a href="mailto:vanicuc@gmail.com" target="_blank">
-              <img src="./public/images/email.png" alt="Icono de Mail" />
+              <img src="./images/email.png" alt="Icono de Mail" />
               
             </a>
           </li>

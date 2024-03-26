@@ -66,7 +66,7 @@ export default function Biker() {
         <div className="img_box_logo">
           <div className="img_logo_project">
             <img
-              src="./public/images/BIKER 1.png"
+              src="./images/BIKER 1.png"
               alt="biker"
               className="card__logo"
               style={{ width: "100%", height: "auto" }}
@@ -115,7 +115,7 @@ export default function Biker() {
               <h4>Biker user flow</h4>
               <ul>
                 <img
-                  src="./public/images/user flow bototon biker.png"
+                  src="./images/user flow bototon biker.png"
                   alt="user flow bototon biker.png"
                   style={{ width: "80%", height: "auto" }}
                 />
@@ -123,7 +123,7 @@ export default function Biker() {
               <h4>Botton user flow</h4>
               <ul>
                 <img
-                  src="./public/images/boton user flow.png"
+                  src="./images/boton user flow.png"
                   alt="botton user flow"
                   style={{ width: "80%", height: "auto" }}
                 />
@@ -138,7 +138,7 @@ export default function Biker() {
           <h3 className="titulo_section"> Information Architecture</h3>
           <div className="img_arq_section">
             <img
-              src="./public/images/biker arq.png"
+              src="./images/biker arq.png"
               alt="Biker arquitectura"
               style={{ width: "50%", height: "auto" }}
             />
@@ -151,7 +151,7 @@ export default function Biker() {
         <div className="user_flow">
           <div>
             <img
-              src="./public/images/leafleat.jpg"
+              src="./images/leafleat.jpg"
               alt="leafleat.jpg"
               style={{ width: "10%", height: "auto" }}
             />
@@ -159,7 +159,7 @@ export default function Biker() {
 
           <div>
             <img
-              src="./public/images/trip.jpg"
+              src="./images/trip.jpg"
               alt="trip.jpg"
               style={{ width: "70%", height: "auto" }}
             />
